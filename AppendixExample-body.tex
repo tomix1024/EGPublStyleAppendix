@@ -1,0 +1,51 @@
+% ---------------------------------------------------------------------
+% EG author guidelines plus sample file for EG publication using LaTeX2e input
+% D.Fellner, v2.04, Dec 14, 2023
+
+
+\title[Appendix Example]%
+      {Appendix Example}
+
+% for anonymous conference submission please enter your SUBMISSION ID
+% instead of the author's name (and leave the affiliation blank) !!
+% for final version: please provide your *own* ORCID in the brackets following \orcid; see https://orcid.org/ for more details.
+\author[Tom Kneiphof]
+{\parbox{\textwidth}{\centering Tom Kneiphof$^{1}$\orcid{0000-0002-7237-2431}
+	}
+        \\
+% For Computer Graphics Forum: Please use the abbreviation of your first name.
+{\parbox{\textwidth}{\centering $^1$University of Bonn, Germany}
+}
+}
+% ------------------------------------------------------------------------
+
+% if the Editors-in-Chief have given you the data, you may uncomment
+% the following five lines and insert it here
+%
+% \volume{36}   % the volume in which the issue will be published;
+% \issue{1}     % the issue number of the publication
+% \pStartPage{1}      % set starting page
+
+%-------------------------------------------------------------------------
+% PACKAGES HERE
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+%-------------------------------------------------------------------------
+\section{Normal Section}
+This is a normal section, and the title is set in \verb|\bfseries| font by default.
+
+%-------------------------------------------------------------------------
+\appendix
+
+\section{My Appendix}
+This is an appendix section, and the title of this appendix is set in regular font.
+In \texttt{egbubl.cls} the font is explicitly reset for appendix titles via \verb|reset@font\rmfamily|.
+
+\section{Fixed Example}
+I provide a modified \texttt{egbubl\textcolor{red}{Fixed}.cls} that fixes the issue in my opinion.
+
+\end{document}

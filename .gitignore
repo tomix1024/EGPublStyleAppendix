@@ -1,0 +1,15 @@
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.lbl
+*.log
+*.synctex.gz
+#*.pdf
+
+*.blend1
+
+egPublStyle-PG2024.zip
+
